@@ -265,8 +265,8 @@
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="stella-wearables">
-<description language="en">&lt;b&gt;Stella Wearables Design Rules based on OSH Park Design Rules&lt;/b&gt;
+<designrules name="oshpark-2layer">
+<description language="en">&lt;b&gt;OSH Park Design Rules&lt;/b&gt;
 &lt;p&gt;
 Please make sure your boards conform to these design rules.
 &lt;/p&gt;
@@ -277,22 +277,22 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <param name="layerSetup" value="(1*16)"/>
 <param name="mtCopper" value="0.035559375mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.035559375mm"/>
 <param name="mtIsolate" value="1.6mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm"/>
-<param name="mdWireWire" value="3mil"/>
-<param name="mdWirePad" value="3mil"/>
-<param name="mdWireVia" value="3mil"/>
-<param name="mdPadPad" value="3mil"/>
-<param name="mdPadVia" value="3mil"/>
-<param name="mdViaVia" value="3mil"/>
-<param name="mdSmdPad" value="3mil"/>
-<param name="mdSmdVia" value="3mil"/>
-<param name="mdSmdSmd" value="3mil"/>
+<param name="mdWireWire" value="6mil"/>
+<param name="mdWirePad" value="6mil"/>
+<param name="mdWireVia" value="6mil"/>
+<param name="mdPadPad" value="6mil"/>
+<param name="mdPadVia" value="6mil"/>
+<param name="mdViaVia" value="6mil"/>
+<param name="mdSmdPad" value="6mil"/>
+<param name="mdSmdVia" value="6mil"/>
+<param name="mdSmdSmd" value="6mil"/>
 <param name="mdViaViaSameLayer" value="8mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
 <param name="mdCopperDimension" value="15mil"/>
 <param name="mdDrill" value="6mil"/>
 <param name="mdSmdStop" value="0mil"/>
-<param name="msWidth" value="3mil"/>
-<param name="msDrill" value="6mil"/>
+<param name="msWidth" value="6mil"/>
+<param name="msDrill" value="10mil"/>
 <param name="msMicroVia" value="10mil"/>
 <param name="msBlindViaRatio" value="0.5"/>
 <param name="rvPadTop" value="0.25"/>
