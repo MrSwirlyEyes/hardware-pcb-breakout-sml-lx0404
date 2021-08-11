@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.35" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -166,10 +166,10 @@
 </layers>
 <board>
 <plain>
-<wire x1="-6.5" y1="-2.7" x2="6.5" y2="-2.7" width="0" layer="20"/>
-<wire x1="6.5" y1="-2.7" x2="6.5" y2="2.6" width="0" layer="20"/>
-<wire x1="6.5" y1="2.6" x2="-6.5" y2="2.6" width="0" layer="20"/>
-<wire x1="-6.5" y1="2.6" x2="-6.5" y2="-2.7" width="0" layer="20"/>
+<wire x1="-6.5" y1="-3.05" x2="6.5" y2="-3.05" width="0" layer="20"/>
+<wire x1="6.5" y1="-3.05" x2="6.5" y2="2.95" width="0" layer="20"/>
+<wire x1="6.5" y1="2.95" x2="-6.5" y2="2.95" width="0" layer="20"/>
+<wire x1="-6.5" y1="2.95" x2="-6.5" y2="-3.05" width="0" layer="20"/>
 <text x="-3" y="1.27" size="0.5" layer="21" font="vector" ratio="10" align="center-left">VLED</text>
 <text x="-3" y="-1.27" size="0.5" layer="21" font="vector" ratio="10" align="center-left">RED</text>
 <text x="3" y="1.27" size="0.5" layer="21" font="vector" ratio="10" align="center-right">GREEN</text>
@@ -497,16 +497,16 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="VLED">
 <contactref element="LED1" pad="1"/>
 <polygon width="0.1524" layer="1">
-<vertex x="-6.5" y="-2.7"/>
-<vertex x="6.5" y="-2.7"/>
-<vertex x="6.5" y="2.6"/>
-<vertex x="-6.5" y="2.6"/>
+<vertex x="-6.5" y="-3.05"/>
+<vertex x="6.5" y="-3.05"/>
+<vertex x="6.5" y="2.95"/>
+<vertex x="-6.5" y="2.95"/>
 </polygon>
 <polygon width="0.1524" layer="16">
-<vertex x="-6.5" y="-2.7"/>
-<vertex x="6.5" y="-2.7"/>
-<vertex x="6.5" y="2.6"/>
-<vertex x="-6.5" y="2.6"/>
+<vertex x="-6.5" y="-3.05"/>
+<vertex x="6.5" y="-3.05"/>
+<vertex x="6.5" y="2.95"/>
+<vertex x="-6.5" y="2.95"/>
 </polygon>
 <contactref element="J1" pad="1"/>
 </signal>
